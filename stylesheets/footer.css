@@ -1,0 +1,174 @@
+footer{
+    font-size: 1.5vw;
+    /* background-color: rgb(1, 1, 24); */
+    padding:0;
+    margin:0;
+}
+footer h2{
+    text-align: center;
+    text-decoration: underline;
+    color:goldenrod;
+    padding: 5px;
+    margin: 3%
+}
+.contact_me{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: 1%;
+    padding: 5rem;
+    margin: 1rem;
+}
+
+.my_form{
+    background-color: rgb(1, 1, 24);
+    font-size: 1vw;
+    padding: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+   
+}
+input, select{
+    height: 35px;
+    width: 50%;
+    padding: 0.4rem;
+    margin: 0.5rem;
+    font-size: 25px;
+}
+select{
+    font-size: 20px;
+}
+::placeholder{
+    height: 32px;
+    color: skyblue;
+    font-size: 32px;
+}
+#texxtarea{
+    width: 50%;
+    height:30%;
+    margin: 1rem;
+    font-size: 30px;
+}
+#contact_me{
+    padding-left: 15%;
+}
+.button_form{
+    background-color: rgb(1, 1, 24);
+    color: skyblue;
+    margin-left: 15%;
+}
+.socials1{
+    background-color: rgb(1, 1, 24);
+
+}
+
+.contact_list li, .socials11{
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    margin-bottom:5%;
+    background-color: blue;
+    border-radius: 15px;
+}
+.socials11{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.socials111{
+    transition: 0.5s ease-in-out;
+}
+.socials111:hover{
+    transform: scale(1.6);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 0px) and (max-width:480px){
+    footer{
+        font-size: 16px;
+    }
+    .contact_me{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        grid-gap: 1%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .my_form{
+        /* border: 3px solid blue; */
+        background-color: rgb(1, 1, 24);
+        font-size: 16px;
+        padding: 0rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+    }
+    input, select{
+        width: 90%;
+        height: 17px;
+    }
+    #texxtarea{
+        height: 15%;
+        width: 90%;
+    }
+    ::placeholder{
+        height: 32px;
+        color: skyblue;
+        font-size: 16px;
+    }
+    select{
+        font-size: 15px;
+        height: 35px;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 769px) {
+        footer{
+            font-size: 22px;
+        }
+        .contact_me{
+            display: grid;
+            grid-template-columns:auto auto;
+            align-items: center;
+            grid-gap: 1%;
+            padding: 1rem;
+            margin: 1rem;
+        }
+        .my_form{
+            background-color: rgb(1, 1, 24);
+            font-size: 16px;
+            padding: 0rem;
+            margin-top: 0.5rem;
+            margin-bottom: 0;
+        }
+        input, select{
+            width: 90%;
+            height: 17px;
+        }
+        #texxtarea{
+            height: 15%;
+            width: 90%;
+        }
+        ::placeholder{
+            height: 32px;
+            color: skyblue;
+            font-size: 16px;
+        }
+        select{
+            font-size: 18px;
+            height: 35px;
+        }
+
+ }
+ @media only screen and (min-width: 770px) and (max-width: 1024px){
+    footer{
+        font-size: 25px;
+    }
+    .contact_me{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #texxtarea{
+        width: 60%
+    }
+}
+

@@ -1,0 +1,45 @@
+#skills{
+    background-color: rgb(1, 1, 24);
+    padding:2%;
+    margin: 5%;
+    border-radius: 2.5rem;
+    border: 0.2rem solid goldenrod;
+    border-right: none;
+    border-top: none;
+}
+.skills_container{
+    background-color: rgb(1, 1, 24);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.technical_skills ul, .soft_skills ul{
+    text-decoration: none;
+    list-style: none;
+    padding: 2%;
+    margin: 2%;
+}
+
+/*-------------Media Queries: Mobile phones----------------*/
+@media only screen and (min-width: 0px) and (max-width:480px){
+    #skills{
+        background-color: rgb(1, 1, 24);
+        padding: 0px;
+        margin: 5px;
+    }
+    .skills_container{
+        display: grid;
+        grid-template-rows: auto auto;
+        margin-left: 0.4rem;
+        margin-right: 0.1rem;
+    }
+    .technical_skills ul, .soft_skills ul{
+        padding:0px;
+        margin: 0px;
+        
+    }
+
+}
