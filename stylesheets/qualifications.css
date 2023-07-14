@@ -36,6 +36,7 @@
 }
 
 /*-------------------Media Queries----------------------*/
+
 /*-------------------Mobile Phones----------------------*/
 @media  only screen and (max-width: 480px) and (min-width:0px){
     .qualification_container{
@@ -45,6 +46,7 @@
 }
 
 /*-------------------Tablets----------------------*/
+
 @media only screen and (max-width: 769px) and (min-width: 481px){
     .qualification_container{
         display: grid;
@@ -54,6 +56,7 @@
 
 
 /*-------------------Laptops----------------------*/
+
 @media only screen and (min-width: 770px) and (max-width: 1024px){
     .qualification_container{
         display:grid;
@@ -63,6 +66,7 @@
 
 
 /*-------------------Wider Screens----------------------*/
+
 @media only screen and (min-width:1025px){
     .qualification_container{
         display:flex;

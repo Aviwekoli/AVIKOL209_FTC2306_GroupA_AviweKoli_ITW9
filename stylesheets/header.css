@@ -9,7 +9,6 @@ html{
     background-color:black;
     color: white;
     overflow-x: hidden;
-    /* font-size: 20px; */
 }
 main{
     font-size: 1.5vw;
@@ -77,10 +76,7 @@ nav ul li a:hover::after{
     transition: width 0.3s linear;
 }
 .small_nav{
-    /* display: grid;
-    grid-template-rows: repeat(5, fr); */
     display: flex;
-    /* grid-template-columns: repeat(2, fr); */
     justify-content: center;
     align-items: center;
     gap:5px;
@@ -117,7 +113,6 @@ nav ul li a:hover::after{
     border-radius: 50%;
     display:none;
 }
-
 
 #logo{
     position: relative; 
@@ -186,6 +181,7 @@ overflow: hidden;
 
 
 /*----------------------Responsive Designs---------------------*/
+
 /*-------------Media Queries: Mobile phones----------------*/
  @media only screen and (min-width: 0px) and (max-width:480px){
     nav{
@@ -316,7 +312,9 @@ overflow: hidden;
         
     }
  }
+
  /*-------------------Laptops----------------------*/
+ 
  @media only screen and (min-width: 770px) and (max-width: 1024px) {
     header{
         font-size: 30px;

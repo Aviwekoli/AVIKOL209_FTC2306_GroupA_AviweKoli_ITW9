@@ -46,7 +46,9 @@ span{
 }
 
 /*----------Responsive Designs----------*/
+
 /*-------------Media Queries: Mobile phones----------------*/
+
 @media only screen and (min-width: 0px) and (max-width:480px){
     .experience_container{
         display: grid;
@@ -75,6 +77,7 @@ span{
     }
 }
 /*-------------------Tablets----------------------*/
+
 @media only screen and (min-width: 481px) and (max-width: 769px) {
     .experience_container{
         display: grid;
@@ -87,6 +90,7 @@ span{
 
 }
 /*-------------------Laptops----------------------*/
+
 @media only screen and (min-width: 770px) and (max-width: 1024px){
     .experience_container{
         display: grid;
@@ -99,6 +103,7 @@ span{
 }
 
 /*-------------------Wider Screens----------------------*/
+
 @media only screen and (min-width:1025px){
     .experience_container{
         display: grid;
