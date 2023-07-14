@@ -42,7 +42,7 @@ nav ul{
     list-style: none;
     position: fixed;
     top: 0;
-    left: 20%;
+    left: 30%;
     text-align: center;
     background-color: rgb(1, 1, 24);
     padding-bottom: 1px;
@@ -185,11 +185,14 @@ overflow: hidden;
 }
 
 
-/*----------Responsive Designs----------*/
+/*----------------------Responsive Designs---------------------*/
 /*-------------Media Queries: Mobile phones----------------*/
  @media only screen and (min-width: 0px) and (max-width:480px){
-    nav ul{
+    nav{
         display: none;
+    }
+    #logo{
+        display: inline-block;
     }
     header{
         font-size: 22px;
@@ -226,6 +229,7 @@ overflow: hidden;
         transition: 0.5s;
     }
     nav button{
+        display: none;
         font-size: 15px;
         padding: 2px 2px;
     }
@@ -244,114 +248,142 @@ overflow: hidden;
     }
 
  }
+ /*---------------------------TABLET MEDIA QUERIES-----------------------------------*/
 
  @media only screen and (min-width: 481px) and (max-width: 769px) {
     nav ul{
         display: none;
     }
- }
- @media only screen and (min-width: 770px) and (max-width: 1024px){
-    nav ul{
-        display: none;
+    header{
+        font-size: 25px;
     }
- }
- 
- @media only screen and (min-width:1025px){
-    nav ul{
-        display: none;
+    .hero_content h2{
+        font-size: 35px;
+        font-weight: 900;
+        color: goldenrod;
+        padding: 5px;
+        padding-left: 35%;
     }
- }
-
- /*-------------------Tablets----------------------*/
-@media only screen and (min-width: 481px) and (max-width: 769px) {
-    nav{
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-align: right;
-        position: relative;
-        top:0;
-        margin: 0;
-        background-color: none;
+    #namee{
+        color: skyblue;
+        font-size: 25px;
+        margin-bottom: 8px;
+        text-align: center;
+        padding-left: 40%;
     }
-    nav ul{
-        display: flex;
-        justify-content: space-between;
-        position: fixed;
-        top: 0;
-        left:0;
-        background-color: none;
+    .hero_content p{
+        display:none
     }
     header{
-        font-size: 22px;
+        padding: 2px;
+        margin: 0;
     }
-
-}
-
+    .background_video{
+        display: none;
+    }
+    button{
+        width: fit-content;
+        padding: 2px 5px;
+        margin-right: 5px;
+        border-radius: 10px;
+        background-color: gold;
+        font-weight: 300;
+        font-size: 15px;
+        transition: 0.5s;
+        margin-left: 40%;
+    }
+    #github_image{
+        display: none;
+    }
+    nav button{
+        font-size: 15px;
+        padding: 2px 2px;
+        width: fit-content;
+    }
+    .hero_content{
+        width:fit-content;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    
+    .pro{
+        border-radius: 50%;
+        display: inline;
+    }
+    nav ul{
+        font-size: 16px;
+        display: flex;
+        
+    }
+ }
  /*-------------------Laptops----------------------*/
-@media only screen and (min-width: 770px) and (max-width: 1024px){}
-
- /*-------------------Wider Screens----------------------*/
-@media only screen and (min-width:1025px){}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*
-    /*----------Experience Section-------------*/
-    /* .experience_container{
-        display: grid;
-        grid-template-rows: repeat(4, 1fr);
-        text-align: center;
-        -ms-grid-row-align: center;
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        padding: 0.5rem;
+ @media only screen and (min-width: 770px) and (max-width: 1024px) {
+    header{
+        font-size: 20px;
     }
-    .experience_container ul{
-        align-self: center;
+    .hero_content h2{
+        font-size: 35px;
+        font-weight: 900;
+        color: goldenrod;
+        padding: 5px;
+        padding-left: 3%;
     }
-} */
-
-
-/*-------------Media Queries: Tablets----------------*/
-/* @media only screen and (max-width: 769px) and (min-width: 481px){
-    .about_container{
-        display:flex;
-        justify-content: space-between;
+    #namee{
+        color: skyblue;
+        font-size: 25px;
+        margin-bottom: 8px;
+        align-content: center;
+        padding-left: 4%;
+    }
+    .hero_content{
+        align-content: center;
+    }
+    .hero_content p{
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    header{
+        padding: 2px;
+        margin: 0;
+    }
+    .background_video{
+        display: none;
+    }
+    button{
+        width: fit-content;
+        padding: 2px 5px;
+        margin-right: 5px;
+        border-radius: 10px;
+        background-color: gold;
+        font-weight: 300;
+        font-size: 15px;
+        transition: 0.5s;
+        margin-left: 2%;
+    }
+    #github_image{
+        display: none;
+    }
+    nav button{
+        font-size: 15px;
+        padding: 2px 2px;
+        width: fit-content;
+    }
+    .hero_content{
+        width:fit-content;
+        margin-top: 1rem;
         text-align: center;
-        margin-left: 2.5;
-        margin-right: 2.5rem;
-        gap: 2rem;
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }   
-} */
-
-/*-------------Media Queries: Laptops----------------*/
-
-
-/*-------------Media Queries: Wide Screens----------------*/
+    }
+    
+    .pro{
+        border-radius: 50%;
+        display: none;
+    }
+    nav ul{
+        font-size: 16px;
+        display: flex;
+        position: fixed;
+        top: 0px;
+        left: 24%;
+    }
+ }
